@@ -39,7 +39,7 @@ const CaseStudies = async ({
       <h2 className="max-w-2xl text-balance text-center text-5xl font-medium md:text-7xl">
         <PrismicText field={slice.primary.heading} />
       </h2>
-      <div className="test-center mx-auto mt-6 max-w-md text-balance text-slate-300">
+      <div className="mx-auto mt-6 max-w-md text-balance text-center text-slate-300">
         <PrismicRichText field={slice.primary.body} />
       </div>
       <div className="mt-20 grid gap-16">
